@@ -1,0 +1,563 @@
+.banner-fondo{
+    background-image: url(../img/nosotros-banner.jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner-fondo::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/sombreado-banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner-text{
+    text-align: left;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-600px,-50%);
+    z-index: 2;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+.banner-fondo1{
+    background: #e7ecf1;
+    z-index: 1;
+}
+
+.banner-fondo1 .conteRight{
+    width: 90%;
+}
+
+.conteRight {
+    width: 50%;
+    float: right;
+}
+
+.banner-fondo1 .conteQuienes{
+    width: 90%;
+    padding: 100px;
+    padding-right: 200px;
+    background: #fff;
+    position: relative;
+    margin-top: -40px;
+    -webkit-box-shadow: 10px 15px 10px 0px rgb(0 0 0 / 50%);
+    -moz-box-shadow: 10px 15px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 10px 15px 10px 0px rgb(0 0 0 / 50%);
+}
+
+.banner-fondo1 .conteQuienes::before{
+    content: 'nosotros';
+    font-size: 100px;
+    line-height: 100px;
+    color: #373737;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 370px;
+    left: -280px;
+    opacity: 0.1;
+    transform: rotate(-90deg);
+    z-index: -1;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.col2 li {
+    float: left;
+    width: 50%;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    position: relative;
+}
+
+.banner-fondo1 h5{
+    margin: 10px 0px;
+}
+
+.banner-fondo1 h2{
+    margin: 10px 0px 50px;
+}
+
+.textleft{
+    text-align: left;
+}
+
+.textUpper{
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 25px;
+    line-height: 30px;
+    color: #2c2b2b;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 45px;
+    color: #1c3259;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+
+h3 {
+    font-size: 35px;
+    line-height: 35px;
+    color: #1c3259;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 26px;
+    line-height: 26px;
+    color: #1c3259;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+p {
+    margin: 20px 0px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2c2b2b;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.banner-fondo1 h1 
+{
+    font-size: 125px;
+    line-height: 125px;
+    color: #b3d134;
+    font-weight: 100;
+}
+.textCenter 
+{
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+}
+
+.clear40 {
+    clear: both;
+    height: 40px;
+}
+
+.banner-fondo1 .conteImg {
+    width: 80%;
+    height: 600px;
+    background-image: url(../img/img-s2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    right: 0px;
+}
+
+.banner-fondo2{
+    padding: 60px 0px 80px;
+    background: #e7ecf1;
+}
+
+.contenedor{
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.banner-fondo2 .contenedor::before{
+    content: 'valores';
+    font-size: 100px;
+    line-height: 100px;
+    color: #373737;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    bottom: -90px;
+    left: -60px;
+    opacity: 0.1;
+}
+
+.banner-fondo2 .icono{
+    margin: 0px auto;
+    width: 375px;
+}
+
+.banner-fondo2 .Souiche{
+    margin: 10px auto 0px;
+    width: 360px
+}
+
+img {
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+.banner-fondo3{
+    padding: 220px 0px 120px;
+    background-image: url(../img/bg-s4.jpg);
+}
+
+.bg {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner-fondo3 h5, .banner-fondo3 h2, .banner-fondo3 h3 {
+    color: #fff;
+}
+
+.banner-fondo3 h2 {
+    margin: 10px 0px 20px;
+}
+
+.banner-fondo4{
+    padding: 80px 0px;
+}
+
+.banner-fondo4::before 
+{
+    content: 'CÓDIGO DE ÉTICA';
+    font-size: 40px;
+    line-height: 40px;
+    color: #373737;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: absolute;
+    top: 3250px;
+    right: -150px;
+    opacity: 0.1;
+    transform: rotate(90deg);
+}
+
+.banner-fondo4 .icono{
+    width: 280px;
+}
+
+.col3 li {
+    float: left;
+    width: 33.33%;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    position: relative;
+}
+
+.banner-fondo5 h5{
+    margin-bottom: 10px;
+}
+
+.banner-fondo5 h4{
+    margin: 20px 0px;
+}
+
+.banner-fondo5{
+    background-image: url(../img/bg-contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-fondo5 .conteForm{
+    padding: 50px 0px;
+    top: -50px;
+    background-color: #e7ecf1;
+    -webkit-box-shadow: 10px 15px 10px 0px rgb(0 0 0 / 50%);
+    -moz-box-shadow: 10px 15px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 10px 15px 10px 0px rgb(0 0 0 / 50%);
+}
+
+.conteForm form input:not([type="submit"]), .conteForm form textarea {
+    margin: 0px auto;
+    display: block;
+    width: 75%;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+input:not([type="submit"]), .conteForm form textarea {
+    font-size: 16px;
+    line-height: 16px;
+    color: #000;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+}
+
+.conteForm .custom-file {
+    width: 100%;
+    margin: 5px 0px;
+    padding: 0;
+    border: none;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.conteForm .custom-file::after {
+    content: 'Examinar...';
+}
+
+.conteForm .custom-file::after {
+    content: 'Examinar...';
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    background: #c7c7c7;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: -10px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.conteForm .custom-file > span {
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #000;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    overflow: hidden!important;
+}
+
+.conteForm .btn {
+    width: 150px;
+    padding: 17px 0px;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.btn {
+    margin: 0px auto;
+    width: 200px;
+    padding: 22px 0px;
+    background-color: #b3d134;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    position: relative;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.btn::before {
+    content: '';
+    width: 98%;
+    height: 96%;
+    background: transparent;
+    border: 3px solid #367080;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.btn a, .btn input[type="submit"] {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.conteForm .custom-file input[type="file"] {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+.conteForm form input:not([type="submit"]), .conteForm form textarea {
+    margin: 0px auto;
+    display: block;
+    width: 75%;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.conteForm form ::placeholder, .conteForm form input:not([type="submit"]), .conteForm form textarea {
+    font-size: 16px;
+    line-height: 16px;
+    color: #000;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+}
+@media screen and (max-width: 1200px) {
+    .textleft {
+        text-align: center;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h4, h5 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .banner-fondo{
+        height: 500px;
+    }
+    .banner-fondo .banner-text {
+        position: inherit!important;
+        width: 320px!important;
+        transform: translate(-160px,-50%);
+    }
+    .textLeft, .textRight {
+        text-align: center;
+    }
+    .banner-fondo1 .conteQuienes{
+        padding: 30px;
+    }
+    .banner-fondo1 .conteRight{
+        width: 100%;
+    }
+    .banner-fondo1 li:nth-child(1), .banner-fondo2 li:nth-child(1), .banner-fondo4 li:nth-child(2) {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .banner-fondo1 li:nth-child(2), .banner-fondo2 li:nth-child(2), .banner-fondo4 li:nth-child(1) {
+        width: 100%;
+    }
+    .banner-fondo1 h1 {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .banner-fondo1 .conteImg {
+        height: 400px;
+    }
+    .banner-fondo2 {
+        padding: 30px 0px 40px;
+    }
+    .contenedor {
+        width: 95%;
+    }
+    .banner-fondo2 .icono, .banner-fondo2 .Souiche {
+        width: 100px;
+    }
+    .banner-fondo2 .contenedor::before {
+        font-size: 50px;
+        bottom: -70px;
+        left: 0px;
+    }
+   .banner-fondo3 {
+        padding: 120px 0px 40px;
+    }
+    .banner-fondo4 {
+        padding: 40px 0px;
+    }
+    .banner-fondo4 .icono {
+        width: 120px;
+        margin: auto;
+    }
+    .banner-fondo4 h2 {
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .banner-fondo5.conteForm {
+        top: -25px;
+        padding: 25px 0px;
+    }
+    .col2 li, .col3 li, .col4 li {
+        width: 100%;
+    }
+}

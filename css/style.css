@@ -1,0 +1,133 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.menu {
+    z-index: 4;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(23, 204, 74, 0.8);
+}
+
+.menu .logo {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.logo img {
+    width: 75px;
+    height: 70px;
+    border-radius: 25%;
+}
+
+.menu h1 {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.menu_items {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu_items li {
+    margin: 0 5px;
+}
+
+.menu_items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu_items li:hover, li.active {
+    background-color: rgba(190, 190, 190, 0.781);
+    transition: .6s;
+}
+
+.btn_menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .logo img {
+        width: 70px;
+        height: 60px;
+    }
+    .menu h1 {
+        font-size: 15px;
+    }
+    .menu_items li a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1145px) {
+    .menu {
+        height: 60px;
+    }
+    .logo img {
+        width: 60px;
+        height: 50px;
+    }
+    .menu h1 {
+        font-size: 1rem;
+    }
+    .btn_menu {
+        display: inline-flex;
+    }
+    .menu_items {
+        position: fixed;
+        top: 60px;
+        width: 100vw;
+        height: calc(100vh - 60px);
+        background: black;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-100vh);
+        transition: transform .6s;
+    }
+    .menu_items.show {
+        transform: translateY(0);
+    }
+    .menu_items li {
+        margin: 10px 0;
+    }
+    .menu_items li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .menu h1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 858px) and (orientation: landscape) {
+    .menu_items {
+        height: calc(100% - 60px);
+        overflow-y: auto;
+    }
+}

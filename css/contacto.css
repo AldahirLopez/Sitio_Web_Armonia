@@ -1,0 +1,41 @@
+.content-ubi{
+    width: 100%;
+}
+
+.content-ubi .texto-ubi{
+   font-size: .7rem;
+   margin: 10px 10px;
+   text-align: center;
+}
+
+.content-ubi .ubi-real{
+    display: flex;
+    width: 100%;
+    height: 350px;
+}
+
+.content-ubi .ubi-real h1{
+   font-size: 1.1rem;
+}
+
+.content-ubi .ubi-real .ubi{
+    padding: 10px 10px;
+    width: 50%;
+    height: 350px;
+}
+
+.content-ubi .ubi-real .ubi-datos{
+   margin: 10px 10px;
+}
+
+.content-ubi .ubi-real .ubi-datos span{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.content-ubi .ubi-real .ubi-datos p{
+    display: flex;
+    align-items: center;
+    margin: 0px 5px;
+}
